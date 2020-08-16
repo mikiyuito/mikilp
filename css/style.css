@@ -1,0 +1,344 @@
+/* 共通
+-------------------------------------------------------------------- */
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, 游ゴシック体, "ヒラギノ角ゴ Pro W3", sans-serif;
+  color: #443322;
+}
+
+img {
+  width: 100%;
+  vertical-align: bottom;
+}
+
+/* header
+-------------------------------------------------------------------------- */
+
+.header {
+
+  background-image: url("../img/top-img.png");
+  background-size: cover;
+  text-align: center;
+  padding-bottom: 120px;
+
+}
+
+.header-title {
+  font-size: 3rem;
+  line-height: 60px;
+  padding-top: 580px;
+  font-weight: 700;
+  color: #443322;
+  margin-bottom: 40px;
+}
+
+.header-img-wrapper {
+  width: 200px;
+  height: 120px;
+  margin: 0 auto 105px;
+}
+
+.header-text {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #443322;
+  margin-bottom: 100px;
+}
+
+.header-btn {
+  background-color: rgb(9,43,72);
+  border-radius: 5px;
+  margin: 0 auto ;
+  width: 260px;
+
+  transition: .3s;
+}
+
+.header-btn span {
+  padding-right: 10px;
+}
+
+.header-btn a {
+  display: block;
+  padding: 15px 40px;
+  font-size: 2.2rem;
+  color: #ffffff;
+  white-space: nowrap;
+}
+
+.header-btn:hover {
+  background-color: #0090aa;
+}
+
+
+/* content
+-------------------------------------------------------------------------------------------------------------------------------- */
+
+.main-content-wrapper {
+  padding: 90px 0;
+}
+
+.content-title {
+  line-height: 60px;
+  background-color: rgb(9,43,72);
+  width: 175px;
+  font-size: 2.2rem;
+  color: #ffffff;
+  margin: 0 auto 30px;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.main-content {
+  display: flex;
+  margin: 0 auto;
+  width: 1560px;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.course-img-wrapper {
+  margin-bottom: 20px;
+}
+
+.course-title {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.course-price {
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.course-list {
+  text-align: left;
+  margin: 0 auto 120px;
+  width: 200px;
+}
+
+.course-item {
+  white-space: nowrap;
+  line-height: 27px;
+}
+
+
+.join-btn {
+  text-align: center;
+  background-color: rgb(9,43,72);
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 2.2rem;
+  width: 435px;
+  margin: 0 auto;
+  padding: 18px 40px;
+  white-space: nowrap;
+  transition: .3s;
+}
+
+.join-btn a {
+  display: block;
+}
+
+.join-btn span {
+  padding-right: 10px;
+}
+
+.join-btn:hover {
+  background-color: #0090aa;
+}
+
+
+/* profile
+------------------------------------------------------------------------------------------------ */
+
+.profile {
+  background-color: #96C5F1;
+  padding: 40px 0 320px;
+}
+
+.profile-content {
+  display: flex;
+  width: 1800px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+
+
+
+.profile-img-wrapper {
+  width: 400px;
+  align-items: center;
+  order: 2;
+}
+
+.profile-details {
+  order: 1;
+}
+
+.about {
+  line-height: 2;
+  margin-bottom: 30px;
+}
+
+.income-content {
+  color: #ffffff;
+  background-color: #5CA1DB;
+  padding: 30px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.income-text {
+  line-height: 2;
+}
+
+.love {
+  margin-bottom: 40px;
+}
+
+
+.career {
+  line-height: 2;
+  margin-bottom: 40px;
+}
+
+
+.career span {
+  font-weight: 700;
+}
+
+
+/* review
+------------------------------------------------------------------------------------------------- */
+
+.review {
+  padding: 40px 0  80px 50px;
+}
+
+.review h1 {
+  margin-bottom: 50px;
+}
+
+.twitter-review-wrapper {
+  display: flex;
+  margin-bottom: 170px;
+}
+
+.twitter-review {
+  margin-right: 100px;
+}
+
+
+/* footer
+-------------------------------------------------------------------------------------------------- */
+
+.footer {
+  background-color: rgb(9,43,72);
+  color: #ffffff;
+  text-align: center;
+  padding: 30px 0 ;
+}
+
+
+@media screen and (max-width:414px) {
+ .header {
+  background-size: 100%;
+  padding-bottom: 50px;
+  background-repeat: no-repeat;
+  height: 750px;
+  background-color: #96C5F1;
+ }
+
+
+
+ .header-title {
+   padding-top: 150px;
+ }
+
+ .header-img-wrapper {
+   margin-bottom: 50px;
+ }
+
+ .header-text {
+   margin-bottom: 50px;
+ }
+
+
+
+ .main-content-wrapper {
+  padding: 50px 15px;
+
+ }
+  .main-content {
+    display: block;
+    width: 100%;
+  }
+
+
+  .course-list {
+    margin-bottom: 50px;
+  }
+
+  .profile {
+   padding: 50px 15px 100px 15px;
+  }
+
+  .profile-details {
+    letter-spacing: .01em;
+  }
+
+
+
+  .profile-content {
+    display: block;
+    width: 100%;
+  }
+
+  .profile-img-wrapper {
+    width: 300px;
+    margin: 0 auto 50px;
+  }
+
+  .twitter-review-wrapper {
+    display: block;
+    margin-bottom: 50px;
+  }
+
+  .join-btn {
+    width: 100%;
+    font-size: 1.5rem;
+    padding: 18px 20px;
+  }
+
+
+
+  .review {
+    padding: 50px 15px;
+
+  }
+
+  .twitter-review {
+    margin-right: 0;
+    margin-bottom: 50px;
+  }
+
+  .footer {
+    padding: 15px;
+  }
+
+
+}
+
+
+
+
